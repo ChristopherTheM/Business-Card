@@ -3,8 +3,8 @@ font-size: 16px;
 }
 
 header {
-  height: 100px;
-  background: url("backyard view".jpg);
+  height: 350px;
+  background: url("backyard view.jpg");
   background-size: cover;
 }
 h2 {text-align: center;
