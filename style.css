@@ -1,1 +1,29 @@
+p {font-family: 'Times New Roman', Times, Serif;
+font-size: 16px;
+}
 
+header {
+  height: 100px;
+  background: /* top, transparent black */
+  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), /* bottom, image */
+  url("backyard view".jpg);
+  background-size: cover;
+}
+
+header {
+  border-bottom: 5px, solid, black;
+  margin: 5px;
+  padding: 5px;
+}
+
+h1 {color: black;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, Serif;
+  text-align: center;
+}
+
+
+a:link    { color: blue;  }
+a:visited { color: purple;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
