@@ -1,12 +1,13 @@
 p {font-family: 'Times New Roman', Times, Serif;
 font-size: 16px;
 }
-
+/* header formatting*/
 header {
   height: 350px;
   background: url("backyard view.jpg");
   background-size: cover;
 }
+/* formatting header2 coloring centering and size */
 h2 {text-align: center;
 color: darkgreen;}
 header {
@@ -14,24 +15,30 @@ header {
   margin: 5px;
   padding: 5px;
 }
-
+/*aligning all urls to be center aligned */
 nav {text-align: center;}
 
+/*main header formatting */
 h1 {color: black;
   font-size: 32px;
   font-family: 'Times New Roman', Times, Serif;
   text-align: center;
 }
-
+/* small header formatting */
 h3 {text-align: center;
 color: midnightblue;}
+
 div {text-align: center;}
+
+/*ordered/unordered list formatting */
 ul{
   display: inline-block;
   text-align:left;
 }
 ol {display: inline-block;
   text-align:left;}
+
+/*link color change based on visited or not*/
 a:link    { color: blue;  }
 a:visited { color: purple;   }
 a:hover   { color: green; }
